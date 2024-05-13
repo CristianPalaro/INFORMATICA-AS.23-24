@@ -1,0 +1,9 @@
+Fiesta            80    5
+Kuga             100    0
+Focus             50   -5
+Multipla         100   10
+Punto             50    3
+Panda            -50    5
+Stilo            100    5
+Corsa            -50   10
+Golf              50    0

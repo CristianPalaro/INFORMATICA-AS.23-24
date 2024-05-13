@@ -1,0 +1,36 @@
+LEGGI e RISPONDI a QUESTA DOMANDA solo dopo aver terminato la tua prova.
+Essa è di facile soluzione ma è opzionale. Ti consentirebbe di raggiungere il voto massimo previsto (10).
+
+CONTESTO:  
+Tutti i prodotti presenti in un supermercato sono, o vengono, confezionati tramite una confezione/imballo/packaging 
+Esempio: 
+    il prosciutto da banco viene confezionato per mezzo di una carta alimentare o in una vaschetta di plastica
+    un detersivo ha normalmente una confezione di cartone
+    un flacone di shapoo è normalmente di plastica
+    un bottiglia di prosecco è normalmente di vetro
+    una confezione di biscotti può avere un packaging di metallo
+    ecc..
+
+Possiamo tuttavia affermare che non tutte le confezioni/imballi/packaging sono composte da materiale riciclabile! NO?
+Ipotizza quindi di dover inserire anche la caratteristica che rappresenta il tipo di imballo (tipoImballo) e di dover 
+implementare un metodo   isImballoRiciclabile()  ,presente in una ipotetica interfaccia nominata Riciclabile, 
+che stabilisce se il tipo di materiale della confezione/imballo/packagin è (o non é) un materiale riciclabile 
+(per semplicità ipotizza che il materiale riciclabile sia solo la CARTA, il VETRO e la PLASTICA)  
+
+DOMANDE
+    1) Puoi inserire tipoImballo direttamente nell'interfaccia Riciclabile?
+    RISPONDI (SI o NO):  
+    
+    2) Se hai risposto NO, in quale classe (tra quelle presenti nell'UML) inseriresti l'attributo tipoImballo? 
+    RISPOSTA: 
+    
+    3) Che tipo di dato useresti? 
+    RISPOSTA: 
+
+    4) Quale classe (tra quelle presenti nell'UML) realizza l'interfaccia Riciclabile? 
+    RISPOSTA: 
+
+    5) Scrivi il codice del metodo isImballoRiciclabile() presente nell'interfaccia Riciclabile (definizione e corpo)
+    RISPOSTA:
+
+ 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<gente>
+    <persona sesso = "maschio" eta = "4">
+        <nome>Silvio</nome>
+        <cognome>Berlusconi</cognome>
+    </persona>
+
+    <persona sesso = "femmina" eta = "98">
+        <nome>Silvia</nome>
+        <cognome>Berlusconi</cognome>
+    </persona>
+
+    <persona sesso = "pansessuale" eta = "4">
+        <nome>Matteo</nome>
+        <cognome>Butax</cognome>
+    </persona>
+</gente>
