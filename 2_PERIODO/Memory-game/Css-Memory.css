@@ -1,0 +1,44 @@
+body{
+    background-color: violet;
+}
+
+.flip{
+    transform: rotateY(180deg);
+}
+
+.memory-game{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.memmory-card{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.front-face{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(255, 0, 0);
+}
+
+.back-face{
+    transform: rotateY(180deg);
+}
+
+.back-face{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 255);
+    backface-visibility: hidden;
+}

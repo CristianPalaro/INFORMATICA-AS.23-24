@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css-Memory.css">
+    <title>Memory Game</title>
+</head>
+<body>
+
+    <section class="memory-game">
+
+        <div class="memory-card" name="css">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/css3.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="css">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/css3.png" alt="" class="back-face">
+        </div>
+
+
+        <div class="memory-card" name="JS">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/javascript.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="JS">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/javascript.png" alt="" class="back-face">
+        </div>
+
+
+        <div class="memory-card" name="HTML">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/html5.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="HTML">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/html5.png" alt="" class="back-face">
+        </div>
+
+
+        <div class="memory-card" name="Python">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/python.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="Python">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/python.png" alt="" class="back-face">
+        </div>
+
+
+        <div class="memory-card" name="React">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/react.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="React">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/react.png" alt="" class="back-face">
+        </div>
+
+
+        <div class="memory-card" name="Scratch">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/scratch.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="Scratch">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/scratch.png" alt="" class="back-face">
+        </div>
+
+
+        <div class="memory-card" name="Java">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/java.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="Java">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/java.png" alt="" class="back-face">
+        </div>
+
+
+        <div class="memory-card" name="C++">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/cplusplus.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="C++">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/cplusplus.png" alt="" class="back-face">
+        </div>
+
+        <div class="memory-card" name="PHP">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/php.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="PHP">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/php.png" alt="" class="back-face">
+        </div>  
+
+
+        <div class="memory-card" name="Gimp">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/gimp.png" alt="" class="back-face">
+        </div>
+        <div class="memory-card" name="Gimp">
+            <img src="./imgMemory/memory.png" alt="" class="front-face">
+            <img src="./imgMemory/gimp.png" alt="" class="back-face">
+        </div>
+
+    </section>
+
+</body>
+
+
+
+<script>
+
+    const cards = document.querySelectorAll('.memory-card');
+
+    for (let index = 0; index < cards; index++) {
+        cards[i].addEventListener("click", flipCard);
+    }
+
+    function flipCard(event){
+        event.target.classList.add('flip'); //classList.add := aggiunge al nome della classe il paramentro "list
+                                             //se clicco su una card per un momento il nome della card va da "memory-card" a "memory-card-flip"
+    }
+
+</script>
+</html>
